@@ -55,7 +55,7 @@
             }
 
             .text {
-                font-size: 400px;
+                font-size: 375px;
             }
 
             .rot {
@@ -112,7 +112,7 @@
         <polygon id="rect13853" class="fil1 str3" points="6719,11258 8521,11258 8521,12161 6719,12161 " />
         <polygon id="rect13853_0" class="fil1 str3" points="6300,11258 6599,11258 6599,12161 6300,12161 " />
 
-        <text x="7100" y="11830" class="text">Drag</text>
+        <text x="6800" y="11830" class="text">Alhidade</text>
         <text x="7250" y="10730" id="angle1" class="text angle">45</text>
 
         <polygon class="fil2 draggable" points="6300,11258 8521,11258 8521,12161 6300,12161" />
@@ -126,11 +126,18 @@
             d="M8779 3889l1688 0c55,0 99,80 99,179l0 694c0,99 -44,179 -99,179l-1688 0c-55,0 -100,-80 -100,-179l0 -694c0,-99 45,-179 100,-179z" />
         <path id="rect16773_1" class="fil1 str3"
             d="M10651 3888l277 0c9,0 16,79 16,179l0 693c0,100 -7,180 -16,180l-277 0c-9,0 -16,-80 -16,-180l0 -693c0,-100 7,-179 16,-179z" />
+        <text x="3000" y="3500" class="text">Halbspiegel</text>
+        <text x="6900" y="500" class="text">Spiegel</text>
+        <text x="8900" y="4500" class="text">Teleskop</text>
     </g>
     <g id="layer5">
         <line class="light" stroke="red" x1="8700" x2="4900" y1="4500" y2="4500" />
         <line class="light" stroke="red" x1="4900" x2="7487" y1="4500" y2="2024" />
 
-        <line class="light" stroke="blue" x1="8700" x2="-19000" y1="4600" y2="4600" />
+        <line class="light" stroke="blue" x1="8700" x2="-30000" y1="4600" y2="4600" />
+    </g>
+    <g id="layer6">
+        <circle class="fil1 str3" cx="-16000" cy="-5000" r="800" />
+        <text class="text" x="-17000" y="-3600">Polarstern</text>
     </g>
 </svg>
