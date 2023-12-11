@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1"
+    style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+    viewBox="-19000 -18000 33500 31725" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg">
+    <defs>
+        <style type="text/css">
+            <![CDATA[
+            .str0 {
+                stroke: white;
+                stroke-width: 8.82;
+                fill: black
+            }
+
+            .str1 {
+                stroke: #393633;
+                stroke-width: 9.375;
+                fill: black
+            }
+
+            .str2 {
+                stroke: #393633;
+                stroke-width: 18.555;
+                stroke-linejoin: round;
+                fill: black
+            }
+
+            .str3 {
+                stroke: #393633;
+                stroke-width: 40;
+                stroke-linejoin: round;
+                fill: black
+            }
+
+            .str5 {
+                stroke: gray;
+                stroke-width: 1.58;
+                stroke-linejoin: round;
+            }
+
+            .fil1 {
+                fill: white
+            }
+
+            .fil2 {
+                fill: transparent
+            }
+
+            .fil0 {
+                fill: none
+            }
+
+            .fil3 {
+                fill: black
+            }
+
+            .text {
+                font-size: 400px;
+            }
+
+            .rot {
+                --angle: 0deg;
+                --visibility-rot-light: visible;
+
+                transform-origin: 7487px 2024px;
+                transform: rotate(var(--angle));
+            }
+
+            .static_rot {
+                transform-origin: 4800px 4800px;
+                transform: rotate(-45deg);
+            }
+
+            .light {
+                stroke-width: 40px;
+            }
+
+            .light_rot {
+                transform-origin: 7487px 2024px;
+                transform: rotate(calc(var(--angle) + 90deg));
+            }
+
+            .light_rot_hide {
+                visibility: var(--visibility-rot-light);
+            }
+            ]]>
+        </style>
+    </defs>
+    <g id="layer1">
+        <path id="path8018" class="fil1 str1"
+            d="M890 8443c3769,3471 9172,3705 13200,-40l-895 -898c-101,127 -207,217 -314,293l-4832 -5196 478 -768 -891 -726 -1033 484 360 1039 -4861 5204c-110,-95 -216,-196 -319,-305l-893 913z" />
+    </g>
+    <g id="layer2">
+        <path id="path9961" class="fil2 str1"
+            d="M4413 6107c387,304 842,569 1406,761l-699 2605c-1003,-286 -1848,-757 -2618,-1322l1911 -2044z" />
+        <path id="path9963" class="fil2 str1"
+            d="M5617 9614c1124,263 2358,324 3721,0l-715 -2649c-774,213 -1546,213 -2309,47l-697 2602z" />
+        <path id="path9965" class="fil2 str1"
+            d="M9826 9488c756,-238 1485,-498 2658,-1372l-1990 -2135c-406,360 -868,633 -1385,826l717 2681z" />
+        <path id="path9967" class="fil2 str1" d="M8245 3574l1901 2032c-350,297 -743,517 -1166,703l-735 -2735z" />
+        <path id="path9969" class="fil2 str1" d="M4761 5733l1914 -2044 -727 2692c-491,-173 -867,-408 -1187,-648z" />
+        <path id="path9971" class="fil2 str1"
+            d="M6448 6520c607,124 1260,166 2041,-45l-477 -1772 -876 -740 -688 2557z" />
+        <path id="path9973" class="fil2 str2"
+            d="M8011 2139c0,253 -213,459 -476,459 -263,0 -476,-206 -476,-459 0,-254 213,-460 476,-460 263,0 476,206 476,460z" />
+    </g>
+
+    <g id="layer3" class="rot">
+        <circle class="fil1 str3" cx="7500" cy="2000" r="1200" />
+        <polygon id="rect13855" class="fil1 str2" points="6978,3024 7997,3024 7997,11338 6978,11338 " />
+        <polygon id="rect13855" class="fil1 str3" points="7487,1024 7997,1024 7997,3024 7487,3024 " />
+        <polygon id="rect13853" class="fil1 str3" points="6719,11258 8521,11258 8521,12161 6719,12161 " />
+        <polygon id="rect13853_0" class="fil1 str3" points="6300,11258 6599,11258 6599,12161 6300,12161 " />
+
+        <text x="7100" y="11830" class="text">Drag</text>
+        <text x="7250" y="10730" id="angle1" class="text angle">45</text>
+
+        <polygon class="fil2 draggable" points="6300,11258 8521,11258 8521,12161 6300,12161" />
+
+        <line class="light light_rot" stroke="red" x1="4900" x2="7487" y1="4500" y2="2024" />
+        <line class="light light_rot light_rot_hide" stroke="red" x1="-19000" x2="7487" y1="27375" y2="2024" />
+    </g>
+    <g id="layer4">
+        <polygon id="rect15802" class="fil1 str3 static_rot" points="4500,3800 5100,3800 5100,5800 4500,5800" />
+        <path id="rect16773" class="fil1 str3"
+            d="M8779 3889l1688 0c55,0 99,80 99,179l0 694c0,99 -44,179 -99,179l-1688 0c-55,0 -100,-80 -100,-179l0 -694c0,-99 45,-179 100,-179z" />
+        <path id="rect16773_1" class="fil1 str3"
+            d="M10651 3888l277 0c9,0 16,79 16,179l0 693c0,100 -7,180 -16,180l-277 0c-9,0 -16,-80 -16,-180l0 -693c0,-100 7,-179 16,-179z" />
+    </g>
+    <g id="layer5">
+        <line class="light" stroke="red" x1="8700" x2="4900" y1="4500" y2="4500" />
+        <line class="light" stroke="red" x1="4900" x2="7487" y1="4500" y2="2024" />
+
+        <line class="light" stroke="blue" x1="8700" x2="-19000" y1="4600" y2="4600" />
+    </g>
+</svg>
