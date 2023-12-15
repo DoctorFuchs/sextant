@@ -66,6 +66,11 @@
                 transform: rotate(var(--angle));
             }
 
+            .rot .rot2 {
+                transform-origin: 7487px 2024px;
+                transform: rotate(22.5deg);
+            }
+
             .static_rot {
                 transform-origin: 4800px 4800px;
                 transform: rotate(-45deg);
@@ -77,11 +82,7 @@
 
             .light_rot {
                 transform-origin: 7487px 2024px;
-                transform: rotate(calc(var(--angle) + 90deg));
-            }
-
-            .light_rot_hide {
-                visibility: var(--visibility-rot-light);
+                transform: rotate(calc(var(--angle) + 135deg));
             }
             ]]>
         </style>
@@ -108,7 +109,7 @@
     <g id="layer3" class="rot">
         <circle class="fil1 str3" cx="7500" cy="2000" r="1200" />
         <polygon id="rect13855" class="fil1 str2" points="6978,3024 7997,3024 7997,11338 6978,11338 " />
-        <polygon id="rect13855" class="fil1 str3" points="7487,1024 7997,1024 7997,3024 7487,3024 " />
+        <polygon id="rect13855" class="fil1 str3 rot2" points="7487,1024 7997,1024 7997,3024 7487,3024 " />
         <polygon id="rect13853" class="fil1 str3" points="6719,11258 8521,11258 8521,12161 6719,12161 " />
         <polygon id="rect13853_0" class="fil1 str3" points="6300,11258 6599,11258 6599,12161 6300,12161 " />
 
